@@ -1,0 +1,224 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color:#333;
+    background:#fff;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+header{
+    background:#f8f9fa;
+    padding-bottom:2rem;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem 5%;
+    background:#fff;
+}
+
+nav h1{
+    color:#27ae60;
+    font-size:1.8rem;
+}
+
+nav .btn{
+    padding: 0.6rem 1.2rem;
+    background:#27ae60;
+    color:#fff;
+    border-radius:5px;
+    transition:background 0.3s;
+}
+
+nav .btn:hover{
+    background: #219653;
+} 
+
+.hero{
+    background: url('img1.jpg') no-repeat center/cover;
+    color:white;
+    text-align:center;
+    padding: 5rem 2rem;
+}
+
+.hero-text{
+    background: rgba(0,0,0,0.5);
+    display:inline-block;
+    padding:2rem;
+    border-radius: 10px;
+}
+
+.hero-text h2{
+    font-size:2.5rem;
+    margin-bottom:1rem;
+}
+
+.hero-text .btn{
+    display: inline-block;
+    margin-top: 1rem;
+    background:#27ae60;
+}
+
+.features{
+    padding:3rem 5%;
+    background: #ecf0f1;
+    text-align:center;
+}
+
+.feature-list{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:1 rem;
+    margin-top:1rem;
+}
+
+.feature{
+    background: #fff;
+    padding: 1rem 2rem;
+    border-radius:8px;
+    box-shadow:0 0 5px rgba(0,0,0,0.1);
+}
+.testimonals{
+    padding: 3rem 5%;
+    background:#fff;
+    text-align:center;
+}
+
+.testimonals blockquote {
+    font-style:italic;
+    margin:1rem 0;
+    color:#555;
+}
+
+.cta{
+    background:#27ae60;
+    color:white;
+    padding: 3rem 5%;
+    text-align:center;
+}
+
+.cta .btn{
+    padding: 0.2rem;
+    background: #fff;
+    color:#27ae60;
+    font-weight:bold;
+}
+
+.pricing{
+    padding:3rem 5%;
+    background:#f0f8f1;
+    text-align:center;
+}
+
+.pricing-table{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:2rem;
+    margin-top:2rem;
+}
+
+.plan{
+    background:#fff;
+    padding:2rem;
+    border-radius:10px;
+    width:250px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+
+.plan .featured{
+    border: 2px solid #27ae60;
+}
+
+.plan h3{
+    color:#27ae60;
+}
+
+.plan ul{
+    list-style:none;
+    margin-top:1rem;
+}
+
+.plan li{
+    margin:0.5rem 0;
+}
+
+.plan .btn{
+    margin-top:1rem;
+}
+
+.faq{
+    padding: 3rem 5%;
+    background:#fff;
+
+}
+
+.faq .question{
+    margin-bottom: 1rem;
+}
+
+.faq h4{
+    color:#27ae60;
+}
+
+.lead-form{
+    padding:3rem 5%;
+    background:#ecf0f1;
+    text-align:center;
+}
+
+.lead-form form{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:1rem;
+    margin-top:1rem;
+}
+
+.lead-form input{
+    padding:0.6rem;
+    width:250px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+.lead-form .btn{
+    background:#27ae60;
+    color:white;
+    padding:0.6rem 1.2rem;
+    border-radius:5px;
+}
+
+footer{
+    text-align:center;
+    padding:1rem 5%;
+    background:#2c3e50;
+    color:white;
+    font-size:0.9rem;
+
+}
+
+footer a{
+    color:#1abc9c;
+}
+
+@media(max-width: 768px){
+    .feature-list, .pricing-table{
+        flex-direction:column;
+        align-items:center;
+    }
+}
